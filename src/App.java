@@ -1,5 +1,7 @@
+import Views.Ventana;
+
 public class App {
     public static void main(String[] args) {
-        System.out.println("HOlasdf");
+        Ventana mainView = new Ventana();
     }
 }

@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="262b2744-29e5-4da0-9c6b-5646ae2b7fd8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Huesped.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Reservas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/DashboardEvents/ClickBusqueda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/DashboardEvents/ClickReservas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/GlobalEvents/IrPanelBusqueda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/GlobalEvents/IrPanelDashboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/GlobalEvents/IrPanelDashboardSinValidacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/GlobalEvents/IrPanelInicioEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/GlobalEvents/IrPanelReservas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/GlobalEvents/PonerViewLoginVisible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/ReservasEvents/EventoManejarFechas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/General/BtnWithBackground.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/General/PanelBackground.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/Panels/Dashboard/PanelDashboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/Panels/InicioPanelView/PanelInicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/Panels/PanelBusqueda/PanelBusqueda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/Panels/PanelBusqueda/PanelDataBusqueda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/Panels/Reservas/PanelReservas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/Panels/ViewLogin/PanelViewLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +41,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Events/DashboardEvents/ClickReservas.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -38,7 +57,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -52,12 +73,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674873439736</updated>
-      <workItem from="1674873441329" duration="83000" />
+      <workItem from="1674873441329" duration="798000" />
+      <workItem from="1675476573787" duration="7168000" />
+      <workItem from="1675520473179" duration="19305000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
